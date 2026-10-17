@@ -1,0 +1,6 @@
+{
+  "name": "mylag - Lagos Life RPG",
+  "description": "Vibrant Nigerian culture RPG featuring Lagos street markets, career paths, dungeon raids, Life Together housing, pet system, Nollywood cinema watch & earn, and verified financial sandbox economy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

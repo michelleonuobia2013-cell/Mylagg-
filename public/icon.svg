@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#090d16" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#neonGlow)" stroke-width="12" />
+  <!-- Stylized M letterform with lightning blade and Danfo yellow stripe -->
+  <path d="M140 370 L140 160 L256 280 L372 160 L372 370" fill="none" stroke="#facc15" stroke-width="36" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Purple Hair Crown Slash -->
+  <path d="M180 140 Q 256 90 332 140" fill="none" stroke="#c084fc" stroke-width="24" stroke-linecap="round" />
+  <circle cx="256" cy="350" r="18" fill="#38bdf8" />
+</svg>

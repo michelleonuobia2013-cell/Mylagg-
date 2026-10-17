@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'NairaSystem';
+  src: local('DejaVu Sans'), local('Noto Sans'), local('Liberation Sans'), local('Arial'), local('Segoe UI'), local('Roboto'), local('sans-serif');
+  unicode-range: U+20A6;
+}
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', 'DejaVu Sans', 'Noto Sans', 'Liberation Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-body: 'Plus Jakarta Sans', 'DejaVu Sans', 'Noto Sans', 'Liberation Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', 'DejaVu Sans', 'Noto Sans', 'Liberation Sans', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    font-feature-settings: "tnum" 1;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom Scrollbar for sleek cyber look */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #232d42;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+
+/* High Contrast Mode support */
+.high-contrast {
+  --tw-contrast: 1.35;
+  filter: contrast(1.25);
+}
+
+.high-contrast * {
+  border-color: #64748b !important;
+}
+
+/* Glow utility classes (used with restraint for active elemental / neon buttons) */
+.neon-glow-purple {
+  box-shadow: 0 0 20px -3px rgba(168, 85, 247, 0.4);
+}
+
+.neon-glow-yellow {
+  box-shadow: 0 0 20px -3px rgba(250, 204, 21, 0.35);
+}
+
+.neon-glow-cyan {
+  box-shadow: 0 0 20px -3px rgba(6, 182, 212, 0.35);
+}
